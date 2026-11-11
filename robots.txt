@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://T-Khongsamret.github.io/sitemap.xml
