@@ -1,0 +1,81 @@
+%PDF-1.4
+% ASCII-only research summary
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 7 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Length 1728 >>
+stream
+BT /F1 18 Tf 1 0 0 1 52 772 Tm (Thantham Khongsamret | Research Summary) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 746 Tm (IEEE ITEC-AP 2026 | Accepted for presentation | Paper P00167) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 721 Tm (Authors: Thantham Khongsamret; Wason Tanjaroen; Uthane Supatti) Tj ET
+BT /F1 14 Tf 1 0 0 1 52 679 Tm (Abstract / scope) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 650 Tm (Predefined SPS-DAB and asymmetric CLLC bidirectional DC-DC converter) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 634 Tm (implementations were compared in PSIM for a 400-V DC link, 250-450-V) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 618 Tm (battery, 1-6-kW operating power, and G2V and V2G directions.) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 602 Tm (A total of 60 voltage-power-direction operating-point pairs were) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 586 Tm (numerically qualified under the study's criteria.) Tj ET
+BT /F1 14 Tf 1 0 0 1 52 540 Tm (Nominal modeled-efficiency results) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 510 Tm (CLLC led 31 of 60 paired operating points, mainly at light load.) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 494 Tm (SPS-DAB led 29 pairs, including 26 of 30 pairs at 4-6 kW.) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 478 Tm (These are conditional results under predefined controls, not universal) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 462 Tm (topology rankings and not measurements on hardware.) Tj ET
+BT /F1 14 Tf 1 0 0 1 52 419 Tm (Read full project page) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 393 Tm (https://t-khongsamret.github.io/research/p00167/) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 377 Tm (ORCID 0009-0004-9258-6906) Tj ET
+BT /F1 9 Tf 1 0 0 1 52 115 Tm (This two-page research summary is not the six-page accepted manuscript.) Tj ET
+BT /F1 9 Tf 1 0 0 1 52 99 Tm (Research summary prepared 11 November 2026.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Length 1826 >>
+stream
+BT /F1 18 Tf 1 0 0 1 52 772 Tm (Study boundaries and interpretation) Tj ET
+BT /F1 14 Tf 1 0 0 1 52 730 Tm (Numerical screening) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 703 Tm (Evidence categories: 12 supported, 44 warning, 4 additional validation.) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 686 Tm (Thirty-three of 60 nominal orderings are sensitive to differential) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 669 Tm (omitted-loss thresholds of 10 W or less.) Tj ET
+BT /F1 14 Tf 1 0 0 1 52 612 Tm (Important limitations) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 585 Tm (- DAB uses explicit MOSFETs while CLLC has parameterized bridges.) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 568 Tm (- Local explicit-MOSFET checks do not bound all 60 operating pairs.) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 551 Tm (- Several passive and auxiliary losses are omitted from the model.) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 534 Tm (- ZVS/ZCS diagnostics are not experimental switching measurements.) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 517 Tm (- A hardware performance comparison has not been established.) Tj ET
+BT /F1 14 Tf 1 0 0 1 52 465 Tm (Separate educational slide deck) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 439 Tm (Canva power, loss and PSIM notes include DAB 10-kW examples.) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 422 Tm (Those examples are distinct from the 1-6-kW paper data.) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 405 Tm (https://www.canva.com/d/5vcHAJwCWstG7k5) Tj ET
+BT /F1 14 Tf 1 0 0 1 52 352 Tm (Status / citation) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 325 Tm (Paper P00167: accepted for conference presentation at IEEE ITEC-AP 2026.) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 308 Tm (Proceedings publication and DOI have not been verified.) Tj ET
+BT /F1 11 Tf 1 0 0 1 52 291 Tm (Do not cite this summary as an IEEE Xplore publication.) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 185 Tm (Full paper PDF available separately from the author upon request.) Tj ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000039 00000 n 
+0000000088 00000 n 
+0000000151 00000 n 
+0000000277 00000 n 
+0000000403 00000 n 
+0000000473 00000 n 
+0000002252 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+4129
+%%EOF
