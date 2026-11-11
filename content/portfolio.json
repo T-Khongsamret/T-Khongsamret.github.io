@@ -1,0 +1,47 @@
+{
+  "updated": "2026-11-11",
+  "records": [
+    {
+      "id": "p00167",
+      "category": "research",
+      "type": "conference_submission",
+      "title": "Comparative Evaluation of DAB and CLLC Bidirectional DC-DC Converters for Wide-Voltage-Range V2G Chargers",
+      "authors": [
+        "Thantham Khongsamret",
+        "Wason Tanjaroen",
+        "Uthane Supatti"
+      ],
+      "conference": "IEEE ITEC-AP 2026",
+      "paper_no": "P00167",
+      "status": "accepted_for_presentation",
+      "doi": null,
+      "published": false,
+      "link": "https://t-khongsamret.github.io/research/p00167/",
+      "tags": [
+        "PowerElectronics",
+        "EVCharging",
+        "DAB",
+        "CLLC",
+        "V2G",
+        "PSIM"
+      ],
+      "notes": "60 numerical pairs. Not hardware validated."
+    },
+    {
+      "id": "psim-notes",
+      "category": "learning",
+      "type": "slides",
+      "title": "Power, losses and PSIM measurement notes",
+      "platform": "Canva",
+      "slides": 40,
+      "url": "https://www.canva.com/d/5vcHAJwCWstG7k5",
+      "status": "learning_notes",
+      "tags": [
+        "PSIM",
+        "Measurement",
+        "Efficiency"
+      ],
+      "notes": "Contains 10 kW DAB example, distinct from P00167 1–6 kW cases."
+    }
+  ]
+}
