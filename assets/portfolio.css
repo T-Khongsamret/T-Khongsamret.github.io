@@ -52,3 +52,16 @@ a:hover .project-schematic{border-color:var(--blue)}.file-actions{font-weight:70
 .related-grid strong{display:block;font-size:13px;color:#00629b;margin-bottom:9px}
 .related-grid span{display:block;font-size:12px;color:#526777;line-height:1.75}
 @media(max-width:780px){.eff-chart-grid,.process-grid,.method-grid,.related-grid{grid-template-columns:1fr}}
+
+/* Identity, professional contact and social channels */
+.personal-networks{margin-top:26px;border-top:1px solid var(--line);padding-top:18px}
+.personal-networks h3{font-size:15px;margin:0 0 8px}
+.personal-networks p{margin:0 0 12px}
+.social-links{display:flex;gap:18px;flex-wrap:wrap}
+.social-links a{font-size:12.5px;font-weight:700}
+.research-grid>.panel{margin-bottom:0}
+.research-grid>.panel h3{font-size:17px;margin:0 0 8px}
+.research-grid>.panel p{font-size:12.5px;min-height:45px}
+.research-grid>.panel>a{font-size:12.5px;font-weight:700;overflow-wrap:anywhere}
+.facts dd{overflow-wrap:anywhere}
+@media(max-width:680px){.research-grid>.panel p{min-height:0}}
