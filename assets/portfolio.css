@@ -14,3 +14,18 @@
 section[id]{scroll-margin-top:100px}[hidden]{display:none!important}
 @media(max-width:950px){.hero-grid,.paper-layout,.about-grid{grid-template-columns:1fr}.hero{padding:52px 0}.side{position:static}.grid3{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:670px){body{font-size:14.5px}.wrap{width:calc(100% - 30px)}.top-inner{display:block;padding:13px 0;min-height:0}.logo{margin-bottom:10px}.navlinks{justify-content:flex-start;gap:12px}.navlinks a{font-size:11px;padding:5px 0}.hero{padding:39px 0}.hero h1{font-size:2.12rem}.lead,.hero .lead{font-size:15px}.section{padding:43px 0}.section-header{display:block}.section-header p{margin-top:12px}.grid3,.feature,.research-grid,.metrics{grid-template-columns:1fr}.feature .art{border-right:0;border-bottom:1px solid var(--line)}.feature .body{padding:23px}.tile{min-height:0}.tile p{min-height:0}.paper-card,.panel{padding:19px}.metric{border-right:0;border-bottom:1px solid var(--line)}.metric:last-child{border:0}.pagehero{padding:37px 0}.pagehero h1{font-size:2rem}.responsive-frame{height:445px}.footer-inner{display:block}.footerlinks{margin-top:20px}.facts{grid-template-columns:1fr;gap:4px}}
+
+
+/* Engineering project documentation */
+.schematics-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start;margin-top:22px}
+.schematics-grid article{min-width:0}.schematics-grid h3{font-size:18px}.schematics-grid p{font-size:13.5px;line-height:1.8}
+.project-schematic{width:100%;height:auto;display:block;object-fit:contain;background:#fff;border:1px solid var(--line);padding:7px;transition:border-color .18s}
+a:hover .project-schematic{border-color:var(--blue)}.file-actions{font-weight:700;font-size:12px!important;margin-top:14px}
+.table-scroll{overflow-x:auto;border:1px solid var(--line);margin:18px 0 12px}
+.results-table{width:100%;border-collapse:collapse;min-width:570px;background:white;font-size:12px;line-height:1.55}
+.results-table th{background:#f2f6f8;color:#29495f;text-align:left;font-size:11px;padding:12px;border-bottom:2px solid #bdccd5;white-space:nowrap}
+.results-table td{padding:9px 12px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums;white-space:nowrap}
+.results-table tbody tr:nth-child(even){background:#fbfcfd}.results-table .positive{color:#8a501a}.results-table .negative{color:#00629b}
+.resource-list{border-top:1px solid var(--line)}.resource-list a{display:flex;align-items:center;justify-content:space-between;gap:16px;text-decoration:none;padding:16px 0;border-bottom:1px solid var(--line)}.resource-list a strong{font-size:13px;color:var(--ink)}.resource-list a span{font-size:12px;color:var(--blue);text-align:right}
+.project-thumb{display:block;width:100%;height:auto;border:1px solid #e0e7eb;background:#fff;margin:10px 0 14px;object-fit:cover}
+@media(max-width:750px){.schematics-grid{grid-template-columns:1fr}.resource-list a{display:block}.resource-list a span{display:block;text-align:left;margin-top:5px}.results-table{font-size:11px}}
