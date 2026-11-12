@@ -29,3 +29,26 @@ a:hover .project-schematic{border-color:var(--blue)}.file-actions{font-weight:70
 .resource-list{border-top:1px solid var(--line)}.resource-list a{display:flex;align-items:center;justify-content:space-between;gap:16px;text-decoration:none;padding:16px 0;border-bottom:1px solid var(--line)}.resource-list a strong{font-size:13px;color:var(--ink)}.resource-list a span{font-size:12px;color:var(--blue);text-align:right}
 .project-thumb{display:block;width:100%;height:auto;border:1px solid #e0e7eb;background:#fff;margin:10px 0 14px;object-fit:cover}
 @media(max-width:750px){.schematics-grid{grid-template-columns:1fr}.resource-list a{display:block}.resource-list a span{display:block;text-align:left;margin-top:5px}.results-table{font-size:11px}}
+
+
+/* Verified 10 kW study: editorial charts and technical appendices */
+.eff-chart-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin:18px 0 12px}
+.eff-chart{margin:0;padding:15px 16px 12px;background:#fff;border:1px solid #dce4e9;border-radius:3px;min-width:0}
+.eff-chart figcaption{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:6px;font-size:12px;color:#526879}
+.eff-chart figcaption strong{font-size:14px;color:#203644}.eff-chart svg{width:100%;height:auto;display:block}
+.process-grid,.method-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin:20px 0}
+.process-step,.method-grid>div{padding:18px;background:#f7fafb;border:1px solid #e1e8ed;border-radius:3px;min-width:0}
+.process-step b{display:block;font-size:12px;color:#00629b;margin-bottom:7px}
+.process-step p,.method-grid p{margin:0;font-size:12.6px;line-height:1.75}
+.method-grid h3{margin:0 0 9px;font-size:15px}
+.method-grid code{font:12px/1.85 ui-monospace,Consolas,monospace;overflow-wrap:anywhere;color:#1d4963}
+.technical-details{border:1px solid #d4e0e8;border-radius:3px;margin:22px 0 0;background:white}
+.technical-details summary{padding:12px 15px;cursor:pointer;font-size:13px;font-weight:700;color:#00629b}
+.technical-details[open] summary{border-bottom:1px solid #dce4e9}
+.technical-details>p,.technical-details>.table-scroll{margin:14px 15px}
+.related-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin:18px 0 22px}
+.related-grid a{border:1px solid #d8e3e9;background:#fbfcfd;padding:17px;text-decoration:none;color:#244455;border-radius:3px}
+.related-grid a:hover{border-color:#00629b;background:#f3f8fa}
+.related-grid strong{display:block;font-size:13px;color:#00629b;margin-bottom:9px}
+.related-grid span{display:block;font-size:12px;color:#526777;line-height:1.75}
+@media(max-width:780px){.eff-chart-grid,.process-grid,.method-grid,.related-grid{grid-template-columns:1fr}}
