@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://T-Khongsamret.github.io/sitemap.xml
+Sitemap: https://t-khongsamret.github.io/sitemap.xml
