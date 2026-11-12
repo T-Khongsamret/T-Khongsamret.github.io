@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Thantham Khongsamret//Research Portfolio//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITEC-AP 2026 - P00167
+BEGIN:VEVENT
+UID:itec-ap2026-p00167-td05-6@t-khongsamret.github.io
+DTSTAMP:20261112T050000Z
+DTSTART:20261203T080000Z
+DTEND:20261203T081500Z
+SUMMARY:ITEC-AP 2026 TD05-6 - DAB vs CLLC V2G Chargers
+LOCATION:BEXCO\, Room 5 (312)\, 55 APEC-ro\, Haeundae-gu\, Busan\, South Korea
+DESCRIPTION:Paper P00167 - Comparative Evaluation of DAB and CLLC Bidirectional DC-DC Converters for Wide-Voltage-Range V2G Chargers. IEEE ITEC-AP 2026. Session TD05 - Power electronics and motor drives (III). Conference session chair: Prasanth Ram Jothikumar (POSTECH). Time listed in Korea Standard Time (UTC+9). Verify any program changes on the conference website.
+URL:https://itec-ap2026.com/technical-program/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
